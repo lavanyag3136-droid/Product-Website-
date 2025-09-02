@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zay Store</title>
+  <style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url(blank.jpg);
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar{
+        background: #a0bdda;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul,li{
+        display: inline-block;
+    }
+    .hero{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(https://tse1.mm.bing.net/th/id/OIP._t5PwJneEsl0m0qJW7PoUgHaEK?pid=Api&P=0&h=180);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+        color: white;
+    }
+    .hero-content{
+        max-width: 400px;
+    }
+    .categories{
+           text-align: center;
+           padding: 2rem;
+    }
+    .pink{
+      color: rgb(209, 39, 68);
+    }
+    .category-list{
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .b1{
+      background-color: white;
+      border: none;
+      padding: 10px 30px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .footer{
+      background-color: darkgray;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    
+  </style>
+  
+</head>
+<body>
+   
 
+  <header class="navbar">
+    <div class="logo">Zay</div>
+    <nav>
+      <ul>
+        <li><a href="https://naturali.co.in/pages/home-page">Home</a></li>
+        <li><a href="https://naturali.co.in/pages/about">About</a></li>
+        <li><a href="https://naturali.co.in/">Shop</a></li>
+        <li><a href="https://naturali.co.in/pages/contact-us">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  
+  <section class="hero">
+    <div class="hero-content">
+      <marquee behavior="" direction="up"><h1 style="font-size: 40px;">NATURALI</h1>
+      <p style="font-size: 30px;">Get,Set,Stock up on Everyday Essentials</p>
+      <h2 style="font-size: 40px;">FLAT 35% OFF</h2>
+      <p style="font-size: 30px;">Naturali is an Indian brand</p>
+      <h3 style="font-size: 30px;">Sitewide</h3></marquee>
+    </div>
+    <div class="hero-image">
+      <marquee behavior="" direction=""><img src="naturali.jpg" alt="natural" width="400px"></marquee>
+    </div>
+  </section>
+
+ 
+  <section class="categories">
+    <h3>As Featured On</h3>
+    <h1 class="pink">FEMINA</h1>
+    <p> Your hair needs some TLC, and opting for a <br>sulphate-free shampoo helps improve hair <br>health,pick the right one with Naturali
+    </p>
+
+    <div class="category-list">
+      <div class="category">
+        <img src="./project6_files/naturali1.jpg" alt="cream">
+        <h4>Face Cream</h4>
+        <button><a href="https://naturali.co.in/collections/face-scrub">Go Shop</a></button>
+      </div>
+      <div class="category">
+        <img src="./project6_files/vit.jpg" alt="vit cream">
+        <h4>Turmeric vitamin C</h4>
+        <button><a href="https://naturali.co.in/collections/sunscreen">Go Shop</a></button>
+      </div>
+      <div class="category">
+        <img src="./project6_files/cream1.jpg" alt="serum">
+        <h4>Serum</h4>
+        <button><a href="https://naturali.co.in/collections/scalp-serum">Go Shop</a></button>
+      </div>
+    </div>
+  </section>
+  <div><center><iframe width="460" height="215" src="./project6_files/EsWT9CWkikk.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+  <br><button><a href="https://naturali.co.in/">Order Now</a></button>
+</center></div>
+<div class="footer">
+   <div>
+  <h2>Zay Shop</h2>
+  <p>📍123 Consectetur at ligula 10660</p>
+  <p>📞010-020-0340</p>
+  <p>✉︎ naturali@gmail.com</p>
+   </div>
+
+ <div>
+  <h2>Products</h2>
+  <p>Shampoos <br>Conditioners <br>Face Washes <br>Body lotions</p>
+ </div>
+<div>
+  <h2>Further Info</h2>
+  <p>FAQs</p>
+  <p>Contact</p>
+  <p>Shop Locations</p>
+
+</div>
+</div>
+<div>
+  <button><a href="https://www.facebook.com/Naturali.IN"><img src="./project6_files/facebook.png" alt="" height="20px"></a></button> 
+  <button><a href="https://www.instagram.com/naturali.in/"><img src="./project6_files/instagram.png" alt="" height="20px"></a></button> 
+  <button><a href="https://www.youtube.com/@Naturali."><img src="./project6_files/youtube.png" alt="" height="20px"></a></button>
+  <button><a href="https://api.whatsapp.com/send/?phone=8420373722&amp;text&amp;type=phone_number&amp;app_absent=0"><img src="./project6_files/whatsapp.png" alt="" height="20px"></a></button>
+</div>
+
+</body></html>
